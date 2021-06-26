@@ -1,0 +1,10 @@
+@media only screen and (max-width: 768px) {
+
+    #navbar {
+      flex-direction: column;
+      background-color: rgb(160, 146, 146);
+    }
+}
+#navbar {
+    flex-direction: row;
+}
