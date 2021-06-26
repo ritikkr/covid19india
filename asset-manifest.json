@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/covid19india/static/css/main.e9840c0b.chunk.css",
-    "main.js": "/covid19india/static/js/main.f022e3ca.chunk.js",
-    "main.js.map": "/covid19india/static/js/main.f022e3ca.chunk.js.map",
-    "runtime-main.js": "/covid19india/static/js/runtime-main.7dd9275c.js",
-    "runtime-main.js.map": "/covid19india/static/js/runtime-main.7dd9275c.js.map",
+    "main.js": "/covid19india/static/js/main.0d2e8bb9.chunk.js",
+    "main.js.map": "/covid19india/static/js/main.0d2e8bb9.chunk.js.map",
+    "runtime-main.js": "/covid19india/static/js/runtime-main.dcb22202.js",
+    "runtime-main.js.map": "/covid19india/static/js/runtime-main.dcb22202.js.map",
     "static/css/2.d45d6843.chunk.css": "/covid19india/static/css/2.d45d6843.chunk.css",
-    "static/js/2.8cb17739.chunk.js": "/covid19india/static/js/2.8cb17739.chunk.js",
-    "static/js/2.8cb17739.chunk.js.map": "/covid19india/static/js/2.8cb17739.chunk.js.map",
-    "static/js/3.0159fc93.chunk.js": "/covid19india/static/js/3.0159fc93.chunk.js",
-    "static/js/3.0159fc93.chunk.js.map": "/covid19india/static/js/3.0159fc93.chunk.js.map",
+    "static/js/2.d088174c.chunk.js": "/covid19india/static/js/2.d088174c.chunk.js",
+    "static/js/2.d088174c.chunk.js.map": "/covid19india/static/js/2.d088174c.chunk.js.map",
+    "static/js/3.1ffc6132.chunk.js": "/covid19india/static/js/3.1ffc6132.chunk.js",
+    "static/js/3.1ffc6132.chunk.js.map": "/covid19india/static/js/3.1ffc6132.chunk.js.map",
     "index.html": "/covid19india/index.html",
     "static/css/2.d45d6843.chunk.css.map": "/covid19india/static/css/2.d45d6843.chunk.css.map",
     "static/css/main.e9840c0b.chunk.css.map": "/covid19india/static/css/main.e9840c0b.chunk.css.map",
-    "static/js/2.8cb17739.chunk.js.LICENSE.txt": "/covid19india/static/js/2.8cb17739.chunk.js.LICENSE.txt",
+    "static/js/2.d088174c.chunk.js.LICENSE.txt": "/covid19india/static/js/2.d088174c.chunk.js.LICENSE.txt",
     "static/media/coronavirus.0918859c.svg": "/covid19india/static/media/coronavirus.0918859c.svg",
     "static/media/coronavirus_black.5bfa8b6f.svg": "/covid19india/static/media/coronavirus_black.5bfa8b6f.svg",
     "static/media/logo.6ce24c58.svg": "/covid19india/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7dd9275c.js",
+    "static/js/runtime-main.dcb22202.js",
     "static/css/2.d45d6843.chunk.css",
-    "static/js/2.8cb17739.chunk.js",
+    "static/js/2.d088174c.chunk.js",
     "static/css/main.e9840c0b.chunk.css",
-    "static/js/main.f022e3ca.chunk.js"
+    "static/js/main.0d2e8bb9.chunk.js"
   ]
 }
