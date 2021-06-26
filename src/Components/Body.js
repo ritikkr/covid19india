@@ -47,9 +47,9 @@ class Body extends Component {
           {this.state.dailyData.map(event => (
               <tr>
                   <td>{event.state}</td>
-                  <td>{event.confirmed}</td>
-                  <td>{event.recovered}</td>
-                  <td>{event.deaths}</td>
+                  <td style={{textAlign="center"}}>{event.confirmed}</td>
+                  <td style={{textAlign="center"}}>{event.recovered}</td>
+                  <td style={{textAlign="center"}}>{event.deaths}</td>
                </tr>))
                }
           </tbody>
