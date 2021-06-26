@@ -21,24 +21,18 @@ class Body extends Component {
         fetchMyAPI();
     }
 
-     contents = this.state.dailyData.map(item => {
-        // change the title and location key based on your API
-        return <tr>
-          <td>{item.state}</td> 
-          <td>{item.confirmed}</td>
-        </tr>
-   })
-
+    
   render() {
     return (
       <div className="Body my-3 d-flex flex-column align-items-center">
-      <h3 style={{borderBottom:"2px solid black"}}>StateWise Covid-19 India Report </h3>
-      <p>Last Updated :- {this.state.lastupdatedtime}</p>
+      <h3 style={{borderBottom:"2px solid black", color: `${this.props.checkbox? "black":"white"}`}}>StateWise Covid-19 India Report </h3>
+      <p style={{color: `${this.props.checkbox? "black":"white"}`}}>Last Updated :- {this.state.lastupdatedtime}</p>
         <Table striped bordered hover size="sm" variant={ this.props.checkbox ? "light":"dark"} style={{width:"70%"}}>
           <thead>
             <tr>
               <th>State Name</th>
               <th>Total Confirmed</th>
+              <th>Active Cases</th>
               <th>Recovered</th>
               <th>Death</th>
             </tr>
@@ -47,9 +41,11 @@ class Body extends Component {
           {this.state.dailyData.map(event => (
               <tr>
                   <td>{event.state}</td>
-                  <td style={{textAlign="center"}}>{event.confirmed}</td>
-                  <td style={{textAlign="center"}}>{event.recovered}</td>
-                  <td style={{textAlign="center"}}>{event.deaths}</td>
+                  <td style={{textAlign:"center"}}>{event.confirmed}</td>
+                  <td style={{textAlign:"center"}}>{event.active}</td>
+                  <td style={{textAlign:"center"}}>{event.recovered}</td>
+                  <td style={{textAlign:"center"}}>{event.deaths}</td>
+                  
                </tr>))
                }
           </tbody>
